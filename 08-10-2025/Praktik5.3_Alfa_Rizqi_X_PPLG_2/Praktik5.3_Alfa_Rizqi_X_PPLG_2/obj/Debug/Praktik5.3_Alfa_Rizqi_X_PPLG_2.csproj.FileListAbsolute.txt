@@ -1,0 +1,8 @@
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Praktik5.3_Alfa_Rizqi_X_PPLG_2\Praktik5.3_Alfa_Rizqi_X_PPLG_2\bin\Debug\Praktik5.3_Alfa_Rizqi_X_PPLG_2.exe.config
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Praktik5.3_Alfa_Rizqi_X_PPLG_2\Praktik5.3_Alfa_Rizqi_X_PPLG_2\bin\Debug\Praktik5.3_Alfa_Rizqi_X_PPLG_2.exe
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Praktik5.3_Alfa_Rizqi_X_PPLG_2\Praktik5.3_Alfa_Rizqi_X_PPLG_2\bin\Debug\Praktik5.3_Alfa_Rizqi_X_PPLG_2.pdb
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Praktik5.3_Alfa_Rizqi_X_PPLG_2\Praktik5.3_Alfa_Rizqi_X_PPLG_2\obj\Debug\Praktik5.3_Alfa_Rizqi_X_PPLG_2.csproj.AssemblyReference.cache
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Praktik5.3_Alfa_Rizqi_X_PPLG_2\Praktik5.3_Alfa_Rizqi_X_PPLG_2\obj\Debug\Praktik5.3_Alfa_Rizqi_X_PPLG_2.csproj.CoreCompileInputs.cache
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Praktik5.3_Alfa_Rizqi_X_PPLG_2\Praktik5.3_Alfa_Rizqi_X_PPLG_2\obj\Debug\Praktik5.3_Alfa_Rizqi_X_PPLG_2.exe
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Praktik5.3_Alfa_Rizqi_X_PPLG_2\Praktik5.3_Alfa_Rizqi_X_PPLG_2\obj\Debug\Praktik5.3_Alfa_Rizqi_X_PPLG_2.pdb
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Praktik5.3_Alfa_Rizqi_X_PPLG_2\Praktik5.3_Alfa_Rizqi_X_PPLG_2\obj\Debug\Praktik5.3_Alfa_Rizqi_X_PPLG_2.exe.config

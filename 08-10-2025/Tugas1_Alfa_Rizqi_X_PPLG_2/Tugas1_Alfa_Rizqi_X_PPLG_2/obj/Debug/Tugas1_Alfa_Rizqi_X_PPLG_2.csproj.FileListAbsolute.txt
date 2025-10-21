@@ -1,0 +1,8 @@
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\bin\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.exe.config
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\bin\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.exe
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\bin\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.pdb
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\obj\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.csproj.AssemblyReference.cache
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\obj\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.csproj.CoreCompileInputs.cache
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\obj\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.exe
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\obj\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.pdb
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\08-10-2025\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\obj\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.exe.config
