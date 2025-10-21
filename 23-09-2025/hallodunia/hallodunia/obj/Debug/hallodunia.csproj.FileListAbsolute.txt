@@ -1,0 +1,7 @@
+D:\ABIMANYU - X PPLG 2\hallodunia\hallodunia\bin\Debug\hallodunia.exe.config
+D:\ABIMANYU - X PPLG 2\hallodunia\hallodunia\bin\Debug\hallodunia.exe
+D:\ABIMANYU - X PPLG 2\hallodunia\hallodunia\bin\Debug\hallodunia.pdb
+D:\ABIMANYU - X PPLG 2\hallodunia\hallodunia\obj\Debug\hallodunia.csproj.AssemblyReference.cache
+D:\ABIMANYU - X PPLG 2\hallodunia\hallodunia\obj\Debug\hallodunia.csproj.CoreCompileInputs.cache
+D:\ABIMANYU - X PPLG 2\hallodunia\hallodunia\obj\Debug\hallodunia.exe
+D:\ABIMANYU - X PPLG 2\hallodunia\hallodunia\obj\Debug\hallodunia.pdb

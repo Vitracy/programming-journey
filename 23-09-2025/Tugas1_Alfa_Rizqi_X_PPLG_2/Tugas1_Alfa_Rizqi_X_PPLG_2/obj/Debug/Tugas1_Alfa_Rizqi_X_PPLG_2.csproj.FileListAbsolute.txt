@@ -1,0 +1,8 @@
+C:\Users\asus\Documents\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\bin\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.exe.config
+C:\Users\asus\Documents\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\bin\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.exe
+C:\Users\asus\Documents\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\bin\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.pdb
+C:\Users\asus\Documents\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\obj\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.csproj.AssemblyReference.cache
+C:\Users\asus\Documents\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\obj\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\obj\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.exe
+C:\Users\asus\Documents\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\obj\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.pdb
+C:\Users\asus\Documents\Tugas1_Alfa_Rizqi_X_PPLG_2\Tugas1_Alfa_Rizqi_X_PPLG_2\obj\Debug\Tugas1_Alfa_Rizqi_X_PPLG_2.exe.config
