@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktik7_Kalkulator_Alfa_Rizqi_X_PPLG_2", "Praktik7_Kalkulator_Alfa_Rizqi_X_PPLG_2\Praktik7_Kalkulator_Alfa_Rizqi_X_PPLG_2.csproj", "{FA9473F4-94FB-4EA5-91F4-895F1F45BF19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA9473F4-94FB-4EA5-91F4-895F1F45BF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9473F4-94FB-4EA5-91F4-895F1F45BF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9473F4-94FB-4EA5-91F4-895F1F45BF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9473F4-94FB-4EA5-91F4-895F1F45BF19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD8EF0A4-FD45-40BF-84FE-36E3014F93FE}
+	EndGlobalSection
+EndGlobal
