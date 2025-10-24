@@ -1,0 +1,16 @@
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\bin\Debug\net8.0-windows\Kalkulator Sederhana.exe
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\bin\Debug\net8.0-windows\Kalkulator Sederhana.deps.json
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\bin\Debug\net8.0-windows\Kalkulator Sederhana.runtimeconfig.json
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\bin\Debug\net8.0-windows\Kalkulator Sederhana.dll
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\bin\Debug\net8.0-windows\Kalkulator Sederhana.pdb
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\Kalkulator_Sederhana.Form1.resources
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\Kalkulator Sederhana.csproj.GenerateResource.cache
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\Kalkulator Sederhana.GeneratedMSBuildEditorConfig.editorconfig
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\Kalkulator Sederhana.AssemblyInfoInputs.cache
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\Kalkulator Sederhana.AssemblyInfo.cs
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\Kalkulator Sederhana.csproj.CoreCompileInputs.cache
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\Kalkulator Sederhana.dll
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\refint\Kalkulator Sederhana.dll
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\Kalkulator Sederhana.pdb
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\Kalkulator Sederhana.genruntimeconfig.cache
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Kalkulator Sederhana\Kalkulator Sederhana\obj\Debug\net8.0-windows\ref\Kalkulator Sederhana.dll
