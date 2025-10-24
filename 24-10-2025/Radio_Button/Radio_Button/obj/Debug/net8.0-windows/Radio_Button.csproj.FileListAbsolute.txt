@@ -1,0 +1,16 @@
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\bin\Debug\net8.0-windows\Radio_Button.exe
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\bin\Debug\net8.0-windows\Radio_Button.deps.json
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\bin\Debug\net8.0-windows\Radio_Button.runtimeconfig.json
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\bin\Debug\net8.0-windows\Radio_Button.dll
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\bin\Debug\net8.0-windows\Radio_Button.pdb
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\Radio_Button.Form1.resources
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\Radio_Button.csproj.GenerateResource.cache
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\Radio_Button.GeneratedMSBuildEditorConfig.editorconfig
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\Radio_Button.AssemblyInfoInputs.cache
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\Radio_Button.AssemblyInfo.cs
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\Radio_Button.csproj.CoreCompileInputs.cache
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\Radio_Button.dll
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\refint\Radio_Button.dll
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\Radio_Button.pdb
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\Radio_Button.genruntimeconfig.cache
+D:\ALFA RIZQI - X PPLG 2\24-10-2025\Radio_Button\Radio_Button\obj\Debug\net8.0-windows\ref\Radio_Button.dll
