@@ -1,0 +1,8 @@
+Data tiket akan tersimpan pada databse.
+CATATAN:
+1. Database harus di import ke MySQL localhost dengan nama "katasi"
+2. Jika menggunakan XAMPP, apache dan MySQL harus aktif
+Apabila catatan diatas tidak terpenuhi, sistem tidak akan bisa untuk mengakses fitur tiket aktif, tiket mati, dan verifikasi tiket.
+
+"TERIMA KASIH"
+Developer: Alfa Rizqi, X PPLG 2, SMK Negeri 1 Kandeman
