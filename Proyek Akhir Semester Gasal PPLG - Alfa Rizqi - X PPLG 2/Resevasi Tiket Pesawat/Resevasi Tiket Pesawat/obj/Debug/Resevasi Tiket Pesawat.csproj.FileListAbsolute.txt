@@ -1,0 +1,72 @@
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.exe.config
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.exe
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.pdb
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.csproj.AssemblyReference.cache
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi_Tiket_Pesawat.Properties.Resources.resources
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.csproj.GenerateResource.cache
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.csproj.CoreCompileInputs.cache
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.exe
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.pdb
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.exe.config
+D:\ALFA RIZQI - X PPLG 2\29-10-2025\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi_Tiket_Pesawat.FormFormulir.resources
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.exe.config
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.exe
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.pdb
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.csproj.AssemblyReference.cache
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.exe.config
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi_Tiket_Pesawat.FormFormulir.resources
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi_Tiket_Pesawat.Properties.Resources.resources
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.csproj.GenerateResource.cache
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.csproj.CoreCompileInputs.cache
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.exe
+D:\Alfa Rizqi X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.pdb
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.exe.config
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.exe
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.pdb
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.csproj.AssemblyReference.cache
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.exe.config
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi_Tiket_Pesawat.FormFormulir.resources
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi_Tiket_Pesawat.Properties.Resources.resources
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.csproj.GenerateResource.cache
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.csproj.CoreCompileInputs.cache
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.exe
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.pdb
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi_Tiket_Pesawat.FormTiketAktif.resources
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\BouncyCastle.Cryptography.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Google.Protobuf.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\K4os.Compression.LZ4.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\K4os.Hash.xxHash.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\MySql.Data.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Buffers.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.IO.Pipelines.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Memory.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Numerics.Vectors.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\ZstdSharp.dll
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\BouncyCastle.Cryptography.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Google.Protobuf.pdb
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Google.Protobuf.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\K4os.Compression.LZ4.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\K4os.Hash.xxHash.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\MySql.Data.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Buffers.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.IO.Pipelines.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Memory.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Numerics.Vectors.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi.EF384516.Up2Date
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi_Tiket_Pesawat.FormTiketMati.resources
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi_Tiket_Pesawat.FormVerifikasi.resources
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.exe.manifest
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\bin\Debug\Resevasi Tiket Pesawat.application
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.exe.manifest
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi Tiket Pesawat.application
+C:\ALFA RIZQI X PPLG 2\ALFA RIZQI - X PPLG 2\Resevasi Tiket Pesawat\Resevasi Tiket Pesawat\obj\Debug\Resevasi_Tiket_Pesawat.FormMenu.resources
