@@ -1,2 +1,2 @@
 # programming-journey
-Pemrogaman dasar C# dan web dasar
+Basic C# programming shcool journey
