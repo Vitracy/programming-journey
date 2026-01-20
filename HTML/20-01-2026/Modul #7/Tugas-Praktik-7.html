@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Calon Siswa Baru SMK</title>
+    <style>
+        body{
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align: center;">FORMULIR PENDAFTARAN CALON SISWA BARU SMK</h1>
+    <form action="/submit">
+        <fieldset style="border: 2px solid black;">
+            <legend style="font-weight: bold;">BIODATA SISWA</legend>
+            <table>
+                <tr>
+                    <td><label for="no-un">No. UN SMP/MTs/Sederajat</label></td>
+                    <td><input type="text" id="no-un" name="no-un" style="width: 250px; margin-left: 10px; " required></td>
+                </tr>  
+                <tr>
+                    <td><label for="nama">Nama Lengkap</label></td>
+                    <td><input type="text" id="nama" name="nama" style="width: 250px; margin-left: 10px;" required></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom: 10px;"><label>Jenis Kelamin</label></td>
+                    <td style="padding-bottom: 10px;">
+                        <label style=" margin-left: 10px;">
+                            <input type="radio" id="lk" name="jenis_kel" value="lk" required>
+                                Laki-laki
+                        </label><br>
+                        <label style=" margin-left: 10px;">
+                            <input type="radio" id="pr" name="jenis_kel" value="pr" required>
+                                Perempuan
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="nama-ortu">Nama Orang tua/Wali</label></td>
+                    <td><input type="text" id="nama-ortu" name="nama-ortu" style="width: 250px; margin-left: 10px; " required></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat (Sesuai KK/KTP/Surat Ket Domisili 6 Bulan Ortu/Walimurid Calon Siswa)</label></td>
+                    <!-- <td><input type="text" id="alamat" name="alamat" style="width: 250px; margin-left: 10px; " required></td> -->
+                    <td><textarea name="alamat" id="alamat" style="width: 250px; height: 85px; margin-left: 10px; resize: vertical;" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="kota-kab">Kota/Kabupaten</label></td>
+                    <td><input type="text" id="kota-kab" name="kota-kab" style="width: 250px; margin-left: 10px; " required></td>
+                </tr>
+                <tr>
+                    <td><label for="asal-sekolah">Asal Sekolah</label></td>
+                    <td><input type="text" id="asal-sekolah" name="asal-sekolah" style="width: 250px; margin-left: 10px; " required></td>
+                </tr>
+                <tr>
+                    <td><label for="agama">Agama</label></td>
+                    <td><input type="text" id="agama" name="agama" list="daftar-agama" style="width: 80px; margin-left: 10px; " required></td>
+                    <datalist id="daftar-agama">
+                        <option value="Islam"></option>
+                        <option value="Hindu"></option>
+                        <option value="Buddha"></option>
+                        <option value="Konghucu"></option>
+                        <option value="Kristen"></option>
+                        <option value="Katolik"></option>
+                    </datalist>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset style="border: 2px solid black;">
+            <legend style="font-weight: bold;">PENILAIAN</legend>
+            <table>
+                <tr>
+                    <td colspan="2"><label>NILAI UJIAN NASIONAL (NUN)</label></td>
+                </tr> 
+                <tr>
+                    <td><label for="nilai-mtk">1. Matematika</label></td>
+                    <td><input type="number" min="0" max="100" id="nilai-mtk" name="nilai-mtk" style="margin-left: 10px; width: 45px;" required></td>
+                </tr>
+                <tr>
+                    <td><label for="nilai-indo">2. Bahasa Indonesia</label></td>
+                    <td><input type="number" min="0" max="100" id="nilai-indo" name="nilai-indo" style="margin-left: 10px; width: 45px;" required></td>
+                </tr>
+                <tr>
+                    <td><label for="nilai-inggris">3. Bahasa Inggris</label></td>
+                    <td><input type="number" min="0" max="100" id="nilai-inggris" name="nilai-inggris" style="margin-left: 10px; width: 45px;" required></td>
+                </tr>
+                <tr>
+                    <td><label for="nilai-ipa">4. Ilmu Pengetahuan Alam (IPA)</label></td>
+                    <td><input type="number" min="0" max="100" id="nilai-ipa" name="nilai-ipa" style="margin-left: 10px; width: 45px;" required></td>
+                    <td><label for="jumlah-nun" style="margin-left: 50px;">Jumlah NUN</label></td>
+                    <td><input type="number" min="0" max="400" id="jumlah-nun" name="jumlah-nun" style="margin-left: 10px; width: 45px;" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="jumlah-nbp">NILAI BONUS PRESTASI (NBP)</label></td>
+                    
+                    <td></td>
+                    <td><input type="number" min="0" id="jumlah-nbp" name="jumlah-nbp" style="margin-left: 10px; width: 45px;" required></td>
+                </tr> 
+
+                <tr>
+                    <td colspan="2"><label for="jumlah-akhir">JUMLAH TOTAL NILAI AKHIR PPDB</label></td>
+                    <td><label for="" style="padding-right: 15px;">(Rumus:NUN+NBP)</label></td>
+                    <td><input type="number" min="0" id="jumlah-akhir" name="jumlah-akhir" style="margin-left: 10px; width: 45px;" required></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset style="border: 2px solid black;">
+            <legend style="font-weight: bold;">PENILAIAN</legend>
+            <table>
+                <tr>
+                    <td><label for="smk-1">1. SMK</label></td>
+                    <td><input type="text" id="smk-1" name="smk-1" style="width: 250px; margin-left: 115px;" required></td>
+                </tr>
+                <tr>
+                    <td><label for="smk-1-pil-1" style="padding-left: 15px;">a. Pilihan 1</label></td>
+                    <td><input type="text" id="smk-1-pil-1" name="smk-1-pil-1" style="width: 250px; margin-left: 115px;" list="jurusan" required></td>
+                </tr>
+                <tr>
+                    <td><label for="smk-1-pil-2" style="padding-left: 15px;">a. Pilihan 2</label></td>
+                    <td><input type="text" id="smk-1-pil-2" name="smk-1-pil-2" style="width: 250px; margin-left: 115px;" list="jurusan" required></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="smk-2">2. SMK</label></td>
+                    <td><input type="text" id="smk-2" name="smk-2" style="width: 250px; margin-left: 115px;" required></td>
+                </tr>
+                <tr>
+                    <td><label for="smk-2-pil-1" style="padding-left: 15px;">a. Pilihan 1</label></td>
+                    <td><input type="text" id="smk-2-pil-1" name="smk-2-pil-1" style="width: 250px; margin-left: 115px;" list="jurusan" required></td>
+                </tr>
+                <tr>
+                    <td><label for="smk-2-pil-2" style="padding-left: 15px;">a. Pilihan 2</label></td>
+                    <td><input type="text" id="smk-2-pil-2" name="smk-2-pil-2" style="width: 250px; margin-left: 115px;" list="jurusan" required></td>
+                </tr>
+                <datalist id="jurusan">
+                    <option value="PPLG"></option>
+                    <option value="TAV"></option>
+                    <option value="TEI"></option>
+                    <option value="TO"></option>
+                    <option value="TSM"></option>
+                </datalist>
+            </table>
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
