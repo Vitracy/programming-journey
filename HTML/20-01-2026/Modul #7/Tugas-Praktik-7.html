@@ -46,7 +46,7 @@
                 <tr>
                     <td><label for="alamat">Alamat (Sesuai KK/KTP/Surat Ket Domisili 6 Bulan Ortu/Walimurid Calon Siswa)</label></td>
                     <!-- <td><input type="text" id="alamat" name="alamat" style="width: 250px; margin-left: 10px; " required></td> -->
-                    <td><textarea name="alamat" id="alamat" style="width: 250px; height: 85px; margin-left: 10px; resize: vertical;" required></textarea></td>
+                    <td><textarea name="alamat" id="alamat" style="width: 250px; height: 85px; margin-left: 10px; resize: vertical; min-height: 85px;" required></textarea></td>
                 </tr>
                 <tr>
                     <td><label for="kota-kab">Kota/Kabupaten</label></td>
@@ -116,14 +116,35 @@
                 <tr>
                     <td><label for="smk-1">1. SMK</label></td>
                     <td><input type="text" id="smk-1" name="smk-1" style="width: 250px; margin-left: 115px;" required></td>
+                    
                 </tr>
                 <tr>
                     <td><label for="smk-1-pil-1" style="padding-left: 15px;">a. Pilihan 1</label></td>
-                    <td><input type="text" id="smk-1-pil-1" name="smk-1-pil-1" style="width: 250px; margin-left: 115px;" list="jurusan" required></td>
+                    <!-- <td><input type="text" id="smk-1-pil-1" name="smk-1-pil-1" style="width: 250px; margin-left: 115px;" list="jurusan" required></td> -->
+                    <td><select required style="width: 256px; margin-left: 115px;" name="smk-1-pil-1" id="smk-1-pil-1">
+                        <option value="" selected disabled hidden>-- Pilih Jurusan --</option>
+                        <option value="pplg">Pengembangan Perangkat Lunak dan Gim</option>
+                        <option value="to">Teknik Otomotif</option>
+                        <option value="te">Teknik Elektronika</option>
+                        <option value="tkl">Teknik Ketenagalistrikan</option>
+                        <option value="tm">Teknik Mesin</option>
+                        <option value="hotel">Perhotelan</option>
+                        <option value="ak">Akutansi</option>
+                    </select></td>
                 </tr>
                 <tr>
                     <td><label for="smk-1-pil-2" style="padding-left: 15px;">a. Pilihan 2</label></td>
-                    <td><input type="text" id="smk-1-pil-2" name="smk-1-pil-2" style="width: 250px; margin-left: 115px;" list="jurusan" required></td>
+                    <!-- <td><input type="text" id="smk-1-pil-2" name="smk-1-pil-2" style="width: 250px; margin-left: 115px;" list="jurusan" required></td> -->
+                     <td><select required style="width: 256px; margin-left: 115px;" name="smk-1-pil-2" id="smk-1-pil-2">
+                        <option value="" selected disabled hidden>-- Pilih Jurusan --</option>
+                        <option value="pplg">Pengembangan Perangkat Lunak dan Gim</option>
+                        <option value="to">Teknik Otomotif</option>
+                        <option value="te">Teknik Elektronika</option>
+                        <option value="tkl">Teknik Ketenagalistrikan</option>
+                        <option value="tm">Teknik Mesin</option>
+                        <option value="hotel">Perhotelan</option>
+                        <option value="ak">Akutansi</option>
+                    </select></td>
                 </tr>
                 
                 <tr>
@@ -132,24 +153,45 @@
                 </tr>
                 <tr>
                     <td><label for="smk-2-pil-1" style="padding-left: 15px;">a. Pilihan 1</label></td>
-                    <td><input type="text" id="smk-2-pil-1" name="smk-2-pil-1" style="width: 250px; margin-left: 115px;" list="jurusan" required></td>
+                    <!-- <td><input type="text" id="smk-2-pil-1" name="smk-2-pil-1" style="width: 250px; margin-left: 115px;" list="jurusan" required></td> -->
+                     <td><select required style="width: 256px; margin-left: 115px;" name="smk-2-pil-1" id="smk-2-pil-1">
+                        <option value="" selected disabled hidden>-- Pilih Jurusan --</option>
+                        <option value="pplg">Pengembangan Perangkat Lunak dan Gim</option>
+                        <option value="to">Teknik Otomotif</option>
+                        <option value="te">Teknik Elektronika</option>
+                        <option value="tkl">Teknik Ketenagalistrikan</option>
+                        <option value="tm">Teknik Mesin</option>
+                        <option value="hotel">Perhotelan</option>
+                        <option value="ak">Akutansi</option>
+                    </select></td>
                 </tr>
                 <tr>
                     <td><label for="smk-2-pil-2" style="padding-left: 15px;">a. Pilihan 2</label></td>
-                    <td><input type="text" id="smk-2-pil-2" name="smk-2-pil-2" style="width: 250px; margin-left: 115px;" list="jurusan" required></td>
+                    <!-- <td><input type="text" id="smk-2-pil-2" name="smk-2-pil-2" style="width: 250px; margin-left: 115px;" list="jurusan" required></td> -->
+                     <td><select required style="width: 256px; margin-left: 115px;" name="smk-2-pil-2" id="smk-2-pil-2">
+                        <option value="" selected disabled hidden>-- Pilih Jurusan --</option>
+                        <option value="pplg">Pengembangan Perangkat Lunak dan Gim</option>
+                        <option value="to">Teknik Otomotif</option>
+                        <option value="te">Teknik Elektronika</option>
+                        <option value="tkl">Teknik Ketenagalistrikan</option>
+                        <option value="tm">Teknik Mesin</option>
+                        <option value="hotel">Perhotelan</option>
+                        <option value="ak">Akutansi</option>
+                    </select></td>
                 </tr>
-                <datalist id="jurusan">
+                <!-- <datalist id="jurusan">
                     <option value="PPLG"></option>
                     <option value="TAV"></option>
                     <option value="TEI"></option>
                     <option value="TO"></option>
                     <option value="TSM"></option>
-                </datalist>
+                </datalist> -->
             </table>
         </fieldset>
         <br>
         <br>
         <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
     </form>
 </body>
 </html>
