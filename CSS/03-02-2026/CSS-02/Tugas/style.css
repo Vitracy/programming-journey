@@ -1,0 +1,126 @@
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+.box-header{
+    display: flex;
+    justify-content:space-between;
+    background-color: #1A237E;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+header{
+    display: flex;
+    align-items:center;
+
+}
+
+.sekolah {
+    color:#FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom:0px;
+
+}
+
+.tahun-pelajaran {
+    color:#FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:0px
+}
+
+nav {
+    display:flex;
+    align-items: center;
+
+}
+
+.box-nav {
+    margin-right: 50px;
+    display:flex;
+    flex-direction:row;
+
+}
+
+.box-nav-home {
+    background-color:#00a2ff;
+    margin-right:20px;
+    border-radius:5px;
+
+}
+
+.box-nav-about {
+    background-color:#00a2ff;
+    margin-right:20px;
+    border-radius:5px;
+
+}
+
+.box-nav-contact {
+    background-color:#00a2ff;
+    border-radius:5px;
+
+}
+
+a[id="nav-home"] {
+    text-decoration:none;
+    color:white;
+    margin:10px;
+}
+
+a[id="nav-about"] {
+    text-decoration:none;
+    background-color:#00a2ff;
+    color:white;
+    margin:10px;
+}
+
+a[id="nav-contact"] {
+    text-decoration:none;
+    background-color:#00a2ff;
+    color:white;
+    margin:10px;
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+article {
+    background-color: white;
+}
+
+footer {
+    background-color: #F4F4f4;
+}
+
+.box-footer {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box-flex {
+    display:flex;
+}
+
+.text-article {
+    color: #333333;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+#copyright {
+    font-size:12px;
+    padding-bottom: 10px;
+    text-align: right;
+}
