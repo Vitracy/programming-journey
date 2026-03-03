@@ -1,0 +1,148 @@
+<!-- Box model dan Display (block & inline) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Box Model</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #2fbcf0;
+        }
+        header {
+            margin-bottom: 2em;
+            text-align: center;
+        }
+        .profile-img {
+            width: 200px;
+            border-radius: 15px;
+            margin-top: 10px;
+        }
+        /* .button-cta {
+            display: block;
+            margin-bottom: 1em;
+            padding: 0.5em 1em;
+            border-radius: 0.5em;
+            border: 1px solid navy;
+            background-color: royalblue;
+            color: white;
+        } */
+        article {
+            border: 1px solid silver;
+            border-radius: 0.8em;
+            padding: 1em;
+            margin-bottom: 1em;
+            background-color: white;
+        }
+        .kotak-skill {
+            border: 5px solid silver;
+            padding: 1em;
+            margin-bottom: 1em;
+            background-color: white;
+        }
+        .action-buttons {
+            margin-top: 1.5em;
+        }
+        .action-buttons button {
+            display: inline;
+            margin-right: 1em;
+            padding: 0.5em 1em;
+            border-radius: 0.8em;
+            border: 1px solid silver;
+        }
+        article {
+            border: 1px solid silver;
+            border-radius: 0.8em;
+            padding: 1em;
+            margin-bottom: 1em;
+            background-color: white;
+        }
+        footer {
+            font-size: small;
+            margin-top: 6em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Profil Saya</h1>
+        <p>Foto Saya</p>
+
+        <img src="foto_profil.jpeg" alt="foto_profil" class="profile-img">
+
+        <!-- <div>
+            <button class="button-cta">Login</button>
+            <button class="button-cta">Register</button>
+        </div> -->
+    </header>
+
+    <article>
+        <p>
+            Saya adalah seorang pelajar di SMK. Jurusan saya adalah 
+            Pengembangan Perangkat Lunak dan Gim. Saya memiliki hobi coding dan game.
+        </p>
+
+        <div class="action-buttons">
+            <button>&#x1F44D; Like</button>
+            <button>&#128552; Comment</button>
+            <button>&#xF16D; Share</button>
+        </div>
+    </article>
+
+    <article>
+        <p>
+            Kompetensi yang sudah saya pelajari adalah HTML, CSS, Java Script, C#, dan Pawno.
+            Saya sudah dapat membuat halaman web sederhana dan memahami dasar pemrograman.
+        </p>
+
+        <div class="action-buttons">
+            <button>&#x1F44D; Like</button>
+            <button>&#128552; Comment</button>
+            <button>&#xF16D; Share</button>
+        </div>
+    </article>
+
+    <div class="kotak-skill">
+        <table style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Pengalaman</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&#9679; HTML (Beginner)</td>
+                    <td>&#9679; Freelancer di Internet</td>
+                </tr>
+                <tr>
+                    <td>&#9679; CSS (Beginner)</td>
+                    <td>&#9679; Freelancer di Internet</td>
+                </tr>
+                <tr>
+                    <td>&#9679; Java Script (Beginner)</td>
+                    <td>&#9679; Freelancer di Internet</td>
+                </tr>
+                <tr>
+                    <td>&#9679; C# (Beginner)</td>
+                    <td>&#9679; Freelancer di Internet</td>
+                </tr>
+                <tr>
+                    <td>&#9679; Pawno (Expert)</td>
+                    <td>&#9679; Developer SA-MP Kuyland Roleplay</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        Copyright &copy; X PPLG
+    </footer>
+
+</body>
+</html>
