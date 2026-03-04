@@ -1,0 +1,44 @@
+body {
+    margin: auto;
+    background-color: rgb(224, 239, 255);
+}
+
+.header {
+    padding: 10px;
+    background-color: white;
+}
+
+.header h1 {
+    margin: 0px;
+    text-align: center;
+}
+
+.navigasi {
+    background-color: navy;
+    padding: 5px;
+    text-align: center;
+}
+
+.navigasi a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.navigasi a:hover {
+    background-color: royalblue;
+}
+
+.article {
+    padding: 10px;
+    background-color: white;
+    text-align: justify;
+}
+
+.footer {
+    padding: 1px;
+    text-align: center;
+    font-size: small;
+}
