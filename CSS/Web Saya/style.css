@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: noneS;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 5px;
+    background-color: #757575;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+nav ul li:hover{
+    opacity: 0.8;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.container{
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.brosur{
+    max-width: 100%;
+}
+
+.daftar-barang{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.barang:hover{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.barang{
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.barang img{
+    border-radius: 4px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.barang p{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
