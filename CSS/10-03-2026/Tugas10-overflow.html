@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Overflow</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color: aliceblue;
+            margin: 0;
+        }
+
+        header{
+            background-color: rgb(0, 153, 255);
+            padding: 10px;
+            
+        }
+
+        header h1{
+            color: white;
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        h2{
+            margin-bottom: 0px;
+            margin-left: 10px;
+        }
+
+        /* Navigasi */
+        nav {
+            margin: 0px;
+            padding: 5px;
+            background-color: rgb(151, 236, 255);
+        }
+
+        nav a{
+            border-radius: 5px;
+            display: inline-block;
+            background-color: rgb(77, 159, 226);
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            text-decoration: none;
+        }
+
+        nav a:hover{
+            background-color: rgb(75, 170, 249);
+        }
+
+        /* Artikel */
+        article{
+            width: 300px;
+            height: 120px;
+            border: 2px solid black;
+            margin: 15px;
+            padding: 10px;
+        }
+
+        .flexbox{
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* Overflow */
+        .visible{
+            overflow: visible;
+            background-color: lightyellow;
+        }
+
+        .hidden{
+            overflow: hidden;
+            background-color: lightpink;
+        }
+
+        .scroll{
+            overflow: scroll;
+            background-color: lightgreen;
+        }
+
+        .auto{
+            overflow: auto;
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Website Toko X PPGLG 2</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <h2>Produk Kami</h2>
+
+    <div class="flexbox">
+        <article class="visible">
+            Produk pertama adalah smartphone terbaru dengan teknologi kamera canggih dan baterai tahan lama. Smartphone ini dirancang untuk membantu aktivitas sehari-hari seperti belajar, bekerja, dan hiburan. Dengan layar besar dan performa cepat, pengguna dapat menikmati berbagai aplikasi tanpa hambatan serta pengalaman multimedia yang lebih nyaman.
+        </article>
+
+        <article class="hidden">
+            Produk kedua adalah laptop ringan yang cocok untuk pelajar dan programmer. Laptop ini memiliki prosesor cepat, RAM besar, dan penyimpanan SSD sehingga mampu menjalankan berbagai aplikasi dengan lancar. Desainnya tipis dan modern sehingga mudah dibawa ke sekolah atau tempat kerja untuk menunjang produktivitas.
+        </article>
+
+        <article class="scroll">
+            Produk ketiga adalah tablet pintar yang dapat digunakan untuk membaca, menonton video, dan belajar online. Tablet ini memiliki layar jernih dan baterai yang tahan lama. Pengguna dapat dengan mudah mengakses berbagai aplikasi pendidikan, hiburan, dan komunikasi untuk mendukung aktivitas sehari-hari dengan lebih praktis.
+        </article>
+
+        <article class="auto">
+            Produk keempat adalah smartwatch yang dapat membantu memantau kesehatan seperti detak jantung, jumlah langkah, dan kualitas tidur. Jam pintar ini juga dapat menampilkan notifikasi pesan dan panggilan dari smartphone. Dengan desain modern dan fitur lengkap, smartwatch ini cocok digunakan untuk aktivitas olahraga maupun sehari-hari.
+        </article>
+    </div>
+
+</body>
+</html>
