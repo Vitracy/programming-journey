@@ -64,6 +64,7 @@ ul li ul{
     display: none;
 }
 
+
 ul li:hover ul,
 ul li:focus-within > ul,
 ul li ul:hover,
@@ -77,6 +78,7 @@ ul li ul li{
     clear: both;
     margin-bottom: 2px;
     padding: 3px;
+    animation: slideDown 0.2s ease-out;
 }
 
 .container{
@@ -142,3 +144,13 @@ footer{
     font-family: 'Times New Roman', Times, serif;
 }
 
+@keyframes slideDown {
+  from {
+    transform: translateY(-25px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
