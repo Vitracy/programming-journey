@@ -105,6 +105,7 @@ footer{
 
 .brosur{
     max-width: 100%;
+    margin-bottom: 70px;
 }
 
 .daftar-barang{
@@ -153,4 +154,10 @@ footer{
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.box-medium{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
