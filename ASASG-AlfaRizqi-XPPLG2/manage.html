@@ -1,413 +1,668 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perpus Mandiri</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="global.css" />
     <style>
-        .modal-peminjam input{
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-        .modal-peminjam button{
-            background-color: rgb(35, 35, 255);
-            color: white;
-            padding: 10px;
-        }
-        .modal-peminjam button:hover{
-            cursor: pointer;
-        }
-        .main-left{
-            padding-top: 30px;
-            padding-left: 75px;
-            font-family: arial;
-            display: flex;
-            flex-direction: column;
-            width: 400px;
-        }
+      .modal-peminjam input {
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .modal-peminjam button {
+        background-color: rgb(35, 35, 255);
+        color: white;
+        padding: 10px;
+      }
+      .modal-peminjam button:hover {
+        cursor: pointer;
+      }
+      .main-left {
+        padding-top: 30px;
+        padding-left: 75px;
+        font-family: arial;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+      }
 
-        .main-button-group{
-            display: flex;
-            align-items: center;
-            padding: 8px;
-            gap: 5px;
-            font-size: 14px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+      .main-button-group {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        gap: 5px;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
 
-        .main-button-group{
-            background-color: rgb(26, 0, 131);
-            border: 1px solid rgb(7, 0, 58);
-            color: white;
-        }
+      .main-button-group {
+        background-color: rgb(26, 0, 131);
+        border: 1px solid rgb(7, 0, 58);
+        color: white;
+      }
 
+      .main-button {
+        gap: 10px;
+        display: flex;
+        flex: row;
+      }
 
-        .main-button{
-            gap: 10px;
-            display: flex;
-            flex: row;
-        }
+      .main-text {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+      }
 
-        .main-text{
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 15px;
-        }
+      .main-text span:nth-child(1) {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 7px;
+      }
 
-        .main-text span:nth-child(1){
-            font-weight: bold;
-            font-size: 20px;
-            margin-bottom: 7px;
-        }
+      .main-text span:nth-child(2) {
+        font-weight: bold;
+        font-size: 27px;
+        margin-bottom: 7px;
+      }
+      .main-text span:nth-child(3) {
+        font-size: 15px;
+      }
 
-        .main-text span:nth-child(2){
-            font-weight: bold;
-            font-size: 27px;
-            margin-bottom: 7px;
-        }
-        .main-text span:nth-child(3){
-            font-size: 15px;
-        }
+      .main-picture {
+        margin-right: 30px;
+        overflow: auto;
+        align-self: self-end;
+      }
 
-        .main-picture{
-            margin-right: 30px;
-            align-self: self-end;
-        }
+      .article-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
 
-        .article-header{
-            display: flex; flex-direction: row; justify-content: space-between; align-items: center;
-        }
+      .article-header-title {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        font-weight: bold;
+      }
 
-        .article-header-title{
-            display: flex; flex-direction: row; gap: 10px; align-items: center; font-weight: bold;
-        }
+      .article-header-explore {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        color: rgb(18, 73, 255);
+        cursor: pointer;
+      }
 
-        .article-header-explore{
-            display: flex; flex-direction: row; align-items: center; gap: 10px; color: rgb(18, 73, 255); cursor: pointer;
-        }
+      .article-cards-receptacle {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        gap: 15px;
+        padding: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
 
-        .article-cards-receptacle{
-            display: flex; flex-direction: row; align-items: start; gap: 15px; padding: 10px; justify-content: center; flex-wrap: wrap;
-        }
-
-        .article-card{
-            width: 150px; height: 280px; border: 1px solid grey; border-radius: 5px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 5px;
-        }
-        .article-card:hover{
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
-            cursor: pointer;
-        }
-        .article-card img{
-            width: 120px;
-            height: 200px;
-            margin-bottom: 10px;
-        }
+      .article-card {
+        width: 150px;
+        height: 280px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+      }
+      .article-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+      }
+      .article-card img {
+        width: 120px;
+        height: 200px;
+        margin-bottom: 10px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div
+      class="overlay-black"
+      id="overlay-black"
+      onclick="hideMessages()"
+    ></div>
 
-    <div class="overlay-black" id="overlay-black" onclick="hideMessages()"></div>
+    <div
+      class="anim-slide-up"
+      style="
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 75%;
+        height: 85%;
+        background-color: white;
+        z-index: 999;
+        margin: auto;
+        padding: 20px;
+        display: none;
+        border-radius: 8px;
+        overflow-y: auto;
+      "
+      id="modal-pinjam-buku"
+    >
+      <div class="flex-row" style="gap: 15px" id="title-pinjam-buku"></div>
+      <hr />
+      <span style="font-weight: bold; color: rgb(58, 58, 255)"
+        >Informasi Peminjam</span
+      >
+      <br />
+      <span style="font-size: small">Lengkapi data berikut dengan benar!</span>
+      <form
+        onsubmit=""
+        class="flex-column modal-peminjam"
+        style="margin-top: 10px"
+      >
+        <span>Nama Peminjam</span>
+        <input
+          id="inPeminjamNama"
+          type="text"
+          placeholder="Masukkan nama asli anda.."
+          required
+        />
+        <span>Nomor HP Peminjam</span>
+        <input
+          id="inPeminjamNOHP"
+          type="text"
+          placeholder="Masukkan nomor hp anda.."
+          required
+        />
+        <span>Alamat Peminjam</span>
+        <input
+          id="inPeminjamAlamat"
+          type="text"
+          placeholder="Masukkan alamat lengkap anda.."
+          required
+        />
 
-    <div class="anim-slide-up" style="position: fixed;
-    top: 0; bottom: 0; left: 0; right: 0;
-    width: 75%;
-    height: 85%;
-    background-color: white;
-    z-index: 999;
-    margin: auto;
-    padding: 20px;
-    display: none;
-    border-radius: 8px;
-    overflow-y: auto; " id="modal-pinjam-buku">
-        <div class="flex-row" style="gap: 15px;" id="title-pinjam-buku">
-            
-        </div>
-        <hr>
-        <span style="font-weight: bold; color: rgb(58, 58, 255);">Informasi Peminjam</span> <br>
-        <span style="font-size: small;">Lengkapi data berikut dengan benar!</span>
-        <form onsubmit="" class="flex-column modal-peminjam" style="margin-top: 10px;">
-            
-            <span>Nama Peminjam</span>
-            <input id="inPeminjamNama" type="text" placeholder="Masukkan nama asli anda.." required>
-            <span>Nomor HP Peminjam</span>
-            <input id="inPeminjamNOHP" type="text" placeholder="Masukkan nomor hp anda.." required>
-            <span>Alamat Peminjam</span>
-            <input id="inPeminjamAlamat" type="text" placeholder="Masukkan alamat lengkap anda.." required>
-           
-            <button onclick="pinjamBukuIni()" type="submit" style="margin-top: 10px;">Pengajuan</button>
-            
-        </form>
+        <button
+          onclick="pinjamBukuIni()"
+          type="submit"
+          style="margin-top: 10px"
+        >
+          Pengajuan
+        </button>
+      </form>
     </div>
 
-    <div class="anim-slide-up" style="position: fixed;
-    top: 0; bottom: 0; left: 0; right: 0;
-    width: 75%;
-    height: 75%;
-    background-color: white;
-    z-index: 999;
-    margin: auto;
-    padding: 10px;
-    display: none;
-    border-radius: 8px;
-    overflow-y: auto; " id="messages">
-    
+    <div
+      class="anim-slide-up"
+      style="
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 75%;
+        height: 75%;
+        background-color: white;
+        z-index: 999;
+        margin: auto;
+        padding: 10px;
+        display: none;
+        border-radius: 8px;
+        overflow-y: auto;
+      "
+      id="messages"
+    ></div>
+
+    <div
+      class="anim-slide-up"
+      style="
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 75%;
+        height: 75%;
+        background-color: white;
+        z-index: 999;
+        margin: auto;
+        padding: 10px;
+        display: none;
+        border-radius: 8px;
+        overflow-y: auto;
+      "
+      id="notif"
+    >
+      <div
+        style="padding: 5px; row-gap: 10px"
+        class="flex-column"
+        id="wadah-notif"
+      ></div>
     </div>
 
-    <div class="anim-slide-up" style="position: fixed;
-    top: 0; bottom: 0; left: 0; right: 0;
-    width: 75%;
-    height: 75%;
-    background-color: white;
-    z-index: 999;
-    margin: auto;
-    padding: 10px;
-    display: none;
-    border-radius: 8px;
-    overflow-y: auto; " id="notif">
-        <div style="padding: 5px; row-gap: 10px;" class="flex-column" id="wadah-notif">
-            
-            
-        </div>
-    </div>
-
-    <div class="auth-register anim-slide-up" id="auth-register" >
-        <div class="background-white">
-        <form onsubmit="return tambahUser()">
-            <div class="container-auth">
-                <div class="click" style="cursor: pointer; position: absolute;" onclick="closeModalAuth()">
-                    <i style="font-size: 24pt; opacity: 0.5;" class="hgi hgi-stroke hgi-rounded hgi-cancel-01"></i>
-                </div>
-                <img style="width: 50px;" src="src/perpus_mandiri_logo.png" alt="perpus_mandiri_logo">
-                <div class="logo-text" style="margin-bottom: 20px;">
-                <span>Perpus Mandiri</span>
-                <span>Aplikasi Manajemen Perpustakaan</span>
-                </div>
-                <p class="sub-title-auth">Create a free account to save your notes and access them anywhere</p>
-
-                <!-- input username -->
-                 <div class="input-group-auth">
-                    <label for="">Username</label>
-                    <input class="input-auth" id="input-username" type="text" placeholder="Input your username here.." required>
-                    <i class="fa-solid fa-user mail-icon-auth" aria-hidden="true" onclick="document.getElementById('input-username').focus();"></i>
-                </div>
-
-                <!-- input email -->
-                <div class="input-group-auth">
-                    <label for="">Email Address</label>
-                    <input class="input-auth" id="input-email" type="email" placeholder="name@example.com" required>
-                    <i class="fa fa-envelope mail-icon-auth" aria-hidden="true" onclick="document.getElementById('input-email').focus();"></i>
-                    <span class="not-valid-auth" id="not-valid-email-register" >Email is already registered!</span>
-                </div>
-
-                <!-- input password -->
-                <div class="input-group-auth">
-                    <label for="">Password</label>
-                    <input class="input-auth" id="input-password" type="password" placeholder="Create password" required>
-                    <i class="fa fa-eye-slash eye-icon-auth" id="toggle-password" onclick="togglePasswordRegister()"></i>
-                    <span class="not-valid-auth" id="not-valid-password" ></span>
-                </div>
-
-                <div class="input-group-auth">
-                    <label for="">Confirm Password</label>
-                    <input class="input-auth" id="input-confirm-password" type="password" placeholder="Re-enter password" required>
-                    <i class="fa fa-eye-slash eye-icon-auth" id="toggle-confirm-password" onclick="toggleConfirmPassword()"></i>
-                    <span class="not-valid-auth" id="not-confirmed-password" >Password does not match!</span>
-                </div>
-
-                <!-- kode admin -->
-                 <div style="display: none;" id="kode-admin" class="input-group-auth">
-                    <label for="">Owner PIN</label>
-                    <input class="input-auth" id="input-kode-admin" type="text" placeholder="Input here if you an Owner..">
-                    <i class="fa-solid fa-key mail-icon-auth" aria-hidden="true" onclick="document.getElementById('input-kode-admin').focus();"></i>
-                    <span style="color: rgb(46, 46, 46); font-size: small;">Kolom di atas muncul apabila belum ada Pemilik website</span>
-                </div>
-
-                <button type="submit" class="btn-submit-auth" id="btn-register" >Register</button>
-
-                <p class="under-text-auth">
-                    Already have an account? <a onclick="openModalLogin()">Log in</a>
-                </p>
+    <div class="auth-register anim-slide-up" id="auth-register">
+      <div class="background-white">
+        <form onsubmit="return tambahUser();">
+          <div class="container-auth">
+            <div
+              class="click"
+              style="cursor: pointer; position: absolute"
+              onclick="closeModalAuth()"
+            >
+              <i
+                style="font-size: 24pt; opacity: 0.5"
+                class="hgi hgi-stroke hgi-rounded hgi-cancel-01"
+              ></i>
             </div>
-        </form>
-        </div>
-    </div>
-    <div class="auth-login anim-slide-up" id="auth-login" >
-            <div class="background-white">
-            <form onsubmit="return login()">
-            <div class="container-auth">
-                <div class="click" style="cursor: pointer; position: absolute;" onclick="closeModalAuth()">
-                    <i style="font-size: 24pt; opacity: 0.5;" class="hgi hgi-stroke hgi-rounded hgi-cancel-01"></i>
-                </div>
-            <!-- <i class="hgi hgi-stroke hgi-property-edit app-logo"></i> -->
-             <img style="width: 50px;" src="src/perpus_mandiri_logo.png" alt="perpus_mandiri_logo">
-             <div class="logo-text" style="margin-bottom: 20px;">
-                <span>Perpus Mandiri</span>
-                <span>Aplikasi Manajemen Perpustakaan</span>
+            <img
+              style="width: 50px"
+              src="src/perpus_mandiri_logo.png"
+              alt="perpus_mandiri_logo"
+            />
+            <div class="logo-text" style="margin-bottom: 20px">
+              <span>Perpus Mandiri</span>
+              <span>Aplikasi Manajemen Perpustakaan</span>
             </div>
-            <p class="sub-title-auth">Enter your email and password to access your notes</p>
+            <p class="sub-title-auth">
+              Create a free account to save your notes and access them anywhere
+            </p>
+
+            <!-- input username -->
+            <div class="input-group-auth">
+              <label for="">Username</label>
+              <input
+                class="input-auth"
+                id="input-username"
+                type="text"
+                placeholder="Input your username here.."
+                required
+              />
+              <i
+                class="fa-solid fa-user mail-icon-auth"
+                aria-hidden="true"
+                onclick="document.getElementById('input-username').focus()"
+              ></i>
+            </div>
+
             <!-- input email -->
             <div class="input-group-auth">
-                <label for="input-email">Email Address</label>
-                <input class="input-auth" id="input-email-login" type="email" placeholder="name@example.com" required>
-                <i class="fa fa-envelope mail-icon-auth" aria-hidden="true" onclick="document.getElementById('input-email-login').focus();"></i>
-                <span class="not-valid-auth" id="not-valid-email-login" >Email is not registered!</span>
+              <label for="">Email Address</label>
+              <input
+                class="input-auth"
+                id="input-email"
+                type="email"
+                placeholder="name@example.com"
+                required
+              />
+              <i
+                class="fa fa-envelope mail-icon-auth"
+                aria-hidden="true"
+                onclick="document.getElementById('input-email').focus()"
+              ></i>
+              <span class="not-valid-auth" id="not-valid-email-register"
+                >Email is already registered!</span
+              >
+            </div>
+
+            <!-- input password -->
+            <div class="input-group-auth">
+              <label for="">Password</label>
+              <input
+                class="input-auth"
+                id="input-password"
+                type="password"
+                placeholder="Create password"
+                required
+              />
+              <i
+                class="fa fa-eye-slash eye-icon-auth"
+                id="toggle-password"
+                onclick="togglePasswordRegister()"
+              ></i>
+              <span class="not-valid-auth" id="not-valid-password"></span>
+            </div>
+
+            <div class="input-group-auth">
+              <label for="">Confirm Password</label>
+              <input
+                class="input-auth"
+                id="input-confirm-password"
+                type="password"
+                placeholder="Re-enter password"
+                required
+              />
+              <i
+                class="fa fa-eye-slash eye-icon-auth"
+                id="toggle-confirm-password"
+                onclick="toggleConfirmPassword()"
+              ></i>
+              <span class="not-valid-auth" id="not-confirmed-password"
+                >Password does not match!</span
+              >
+            </div>
+
+            <!-- kode admin -->
+            <div style="display: none" id="kode-admin" class="input-group-auth">
+              <label for="">Owner PIN</label>
+              <input
+                class="input-auth"
+                id="input-kode-admin"
+                type="text"
+                placeholder="Input here if you an Owner.."
+              />
+              <i
+                class="fa-solid fa-key mail-icon-auth"
+                aria-hidden="true"
+                onclick="document.getElementById('input-kode-admin').focus()"
+              ></i>
+              <span style="color: rgb(46, 46, 46); font-size: small"
+                >Kolom di atas muncul apabila belum ada Pemilik website</span
+              >
+            </div>
+
+            <button type="submit" class="btn-submit-auth" id="btn-register">
+              Register
+            </button>
+
+            <p class="under-text-auth">
+              Already have an account? <a onclick="openModalLogin()">Log in</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="auth-login anim-slide-up" id="auth-login">
+      <div class="background-white">
+        <form onsubmit="return login();">
+          <div class="container-auth">
+            <div
+              class="click"
+              style="cursor: pointer; position: absolute"
+              onclick="closeModalAuth()"
+            >
+              <i
+                style="font-size: 24pt; opacity: 0.5"
+                class="hgi hgi-stroke hgi-rounded hgi-cancel-01"
+              ></i>
+            </div>
+            <!-- <i class="hgi hgi-stroke hgi-property-edit app-logo"></i> -->
+            <img
+              style="width: 50px"
+              src="src/perpus_mandiri_logo.png"
+              alt="perpus_mandiri_logo"
+            />
+            <div class="logo-text" style="margin-bottom: 20px">
+              <span>Perpus Mandiri</span>
+              <span>Aplikasi Manajemen Perpustakaan</span>
+            </div>
+            <p class="sub-title-auth">
+              Enter your email and password to access your notes
+            </p>
+            <!-- input email -->
+            <div class="input-group-auth">
+              <label for="input-email">Email Address</label>
+              <input
+                class="input-auth"
+                id="input-email-login"
+                type="email"
+                placeholder="name@example.com"
+                required
+              />
+              <i
+                class="fa fa-envelope mail-icon-auth"
+                aria-hidden="true"
+                onclick="document.getElementById('input-email-login').focus()"
+              ></i>
+              <span class="not-valid-auth" id="not-valid-email-login"
+                >Email is not registered!</span
+              >
             </div>
             <!-- input password -->
             <div class="input-group-auth">
-                <div class="space-beetween">
+              <div class="space-beetween">
                 <label for="input-password">Password</label>
-                </div>
-                <input class="input-auth" id="input-password-login" type="password" placeholder="Enter password" required>
-                <i class="fa fa-eye-slash eye-icon-auth" id="toggle-password-login" onclick="togglePasswordLogin()"></i>
-                <span class="not-valid-auth" id="password-invalid-login" >Invalid password!</span>
+              </div>
+              <input
+                class="input-auth"
+                id="input-password-login"
+                type="password"
+                placeholder="Enter password"
+                required
+              />
+              <i
+                class="fa fa-eye-slash eye-icon-auth"
+                id="toggle-password-login"
+                onclick="togglePasswordLogin()"
+              ></i>
+              <span class="not-valid-auth" id="password-invalid-login"
+                >Invalid password!</span
+              >
             </div>
             <button type="submit" class="btn-submit-auth">Log In</button>
             <p class="under-text-auth">
-                Don't have an account? <a onclick="openModalRegister()">Sign up</a>
+              Don't have an account?
+              <a onclick="openModalRegister()">Sign up</a>
             </p>
-            </div>
-            </form>
-            </div>
-        </div>
+          </div>
+        </form>
+      </div>
+    </div>
 
     <header class="shadow-bottom-only">
-        <div class="logo-parent">
-            <img style="width: 50px;" src="src/perpus_mandiri_logo.png" alt="perpus_mandiri_logo">
-            <div class="logo-text">
-                <span>Perpus Mandiri</span>
-                <span>Aplikasi Manajemen Perpustakaan</span>
-            </div>
+      <div class="logo-parent">
+        <img
+          style="width: 50px"
+          src="src/perpus_mandiri_logo.png"
+          alt="perpus_mandiri_logo"
+        />
+        <div class="logo-text">
+          <span>Perpus Mandiri</span>
+          <span>Aplikasi Manajemen Perpustakaan</span>
         </div>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="about.html">Tentang</a>
-            <a href="contact.html">Kontak</a>
-            <a href="books.html">Daftar Buku</a>
-            <a href="chart.html">Grafik Peminjaman</a> |
-            <div id="auth" class="auth flex-column" onclick="handleAuth()">
-               
-                <div class="registered">
-                    <img class="unselectable" style="width: 30px;" src="src/user-solid-full.svg" alt="">
-                    <div class="flex-column">
-                        <span class="unselectable">${name}</span>
-                        <span class="unselectable">${role}</span>
-                    </div>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                
+      </div>
+      <nav>
+        <a href="index.html">Beranda</a>
+        <a href="about.html">Tentang</a>
+        <a href="contact.html">Kontak</a>
+        <a href="books.html">Daftar Buku</a>
+        <a href="chart.html">Grafik Peminjaman</a> |
+        <div id="auth" class="auth flex-column" onclick="handleAuth()">
+          <div class="registered">
+            <img
+              class="unselectable"
+              style="width: 30px"
+              src="src/user-solid-full.svg"
+              alt=""
+            />
+            <div class="flex-column">
+              <span class="unselectable">${name}</span>
+              <span class="unselectable">${role}</span>
             </div>
-            <div id="extra-nav" class="flex-column" style="position: absolute; top: 60px; right: 30px; "></div>
-        </nav>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <div
+          id="extra-nav"
+          class="flex-column"
+         
+        ></div>
+      </nav>
     </header>
-    <main style="padding-bottom: 30px;">
-        <div class="main-left">
-            <div class="main-text anim-slide-up">
-                <span>Manajemen Administrator</span>
-                <span>Aplikasi Manajemen Perpustakaan</span>
-                <span>Sistem informasi berbasis web untuk membantu pengelolaan data buku, anggota, dan peminjaman buku secara efektif dan efisien.</span>
-            </div>
-            <div class="main-button">
-                <div class="main-button-group" onclick="window.location.href = './index.html';"> 
-                    <img class="unselectable" style="width: 16px; filter: invert(100%);" src="src/book-solid-full.svg" alt="">
-                    <span class="unselectable">Beranda</span>                    
-                </div>
-             
-            </div>
+    <main style="padding-bottom: 30px">
+      <div class="main-left">
+        <div class="main-text anim-slide-up">
+          <span>Manajemen Administrator</span>
+          <span>Aplikasi Manajemen Perpustakaan</span>
+          <span
+            >Sistem informasi berbasis web untuk membantu pengelolaan data buku,
+            anggota, dan peminjaman buku secara efektif dan efisien.</span
+          >
         </div>
-        <div class="main-picture">
-            <img style="max-width: 220px;" src="src/pngtree-stack-of-books-on-the-shelf-in-cartoon-style-bookshelf-with-png-image_13121503.png" alt="">
+        <div class="main-button">
+          <div
+            class="main-button-group"
+            onclick="window.location.href = './index.html'"
+          >
+            <img
+              class="unselectable"
+              style="width: 16px; filter: invert(100%)"
+              src="src/book-solid-full.svg"
+              alt=""
+            />
+            <span class="unselectable">Beranda</span>
+          </div>
         </div>
+      </div>
+      <div class="main-picture">
+        <img
+          style="max-width: 220px"
+          src="src/pngtree-stack-of-books-on-the-shelf-in-cartoon-style-bookshelf-with-png-image_13121503.png"
+          alt=""
+        />
+      </div>
     </main>
     <article>
-        <div class="article-header" style="margin-bottom: 20px;">
-            <div class="article-header-title">
-                <img class="unselectable" style="width: 30px;" src="src/book-solid-full.svg" alt="">
-                <span>Daftar Administrator</span>
-            </div>
-            <form onsubmit="tambahAdministrator()">
-                <div class="flex-row" style="gap: 10px;">
-                <input id="emailAdm" required type="text" placeholder="Masukkan email pengguna..">
-                <button type="submit" class="main-button-group" > 
-                    
-                    <span class="unselectable">+ Tambah Administrator Baru </span>                    
-                </button>
-            </div>
-            </form>
+      <div class="article-header" style="margin-bottom: 20px; column-gap: 5px;">
+        <div class="article-header-title">
+          <img
+            class="unselectable"
+            style="width: 30px"
+            src="src/book-solid-full.svg"
+            alt=""
+          />
+          <span>Daftar Administrator</span>
         </div>
-        
-        <div class="modal-peminjam flex-column">
-            <table style="width: 100%; padding: 5px; text-align: center; ">
-                <thead style="background-color: rgb(231, 255, 255); font-weight: bold;">
-                    <tr>
-                        <td>Nama Pengguna</td>
-                        <td>Email</td>
-                        <td>Aksi</td>
-                    </tr>
-                </thead>
-                
-                <tbody id="wadah-daftar-administrator" style="background-color: rgb(244, 244, 255);">
-                    
-                </tbody>
-            </table>
-        </div>
-    </article>
-    <section>
+        <form onsubmit="tambahAdministrator()" style="overflow-x: auto;">
+          <div class="flex-row" style="gap: 10px;">
+            <input
+              id="emailAdm"
+              required
+              type="email"
+              placeholder="Masukkan email pengguna.."
+            />
+            <button type="submit" class="main-button-group">
+              <span class="unselectable">+ Tambah Administrator Baru </span>
+            </button>
+          </div>
+        </form>
+      </div>
 
-    </section>
+      <div class="modal-peminjam flex-column" style="overflow: auto;">
+        <table style="width: 100%; padding: 5px; text-align: center">
+          <thead
+            style="background-color: rgb(231, 255, 255); font-weight: bold"
+          >
+            <tr>
+              <td>Nama Pengguna</td>
+              <td>Email</td>
+              <td>Aksi</td>
+            </tr>
+          </thead>
+
+          <tbody
+            id="wadah-daftar-administrator"
+            style="background-color: rgb(244, 244, 255)"
+          ></tbody>
+        </table>
+      </div>
+    </article>
+    <section></section>
     <footer>
-        <div class="footer-information">
-            <div class="footer-information-left">
-                <div class="logo-parent">
-                    <img style="width: 50px; filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(438%) hue-rotate(87deg) brightness(115%) contrast(100%);" src="src/perpus_mandiri_logo-removebg-preview.png" alt="perpus_mandiri_logo">
-                    <div class="logo-text">
-                        <span style="filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(438%) hue-rotate(87deg) brightness(115%) contrast(100%);">Perpus Mandiri</span>
-                        <span style="filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(438%) hue-rotate(87deg) brightness(115%) contrast(100%);">Aplikasi Manajemen Perpustakaan</span>
-                    </div>
-                    
-                </div>
-                <span style="color: white; font-size: small; padding-left: 8px; margin-top: 10px;">Belajar, Membaca, Berbagi Ilmu</span>
+      <div class="footer-information">
+        <div class="footer-information-left">
+          <div class="logo-parent">
+            <img
+              style="
+                width: 50px;
+                filter: brightness(0) saturate(100%) invert(100%) sepia(1%)
+                  saturate(438%) hue-rotate(87deg) brightness(115%)
+                  contrast(100%);
+              "
+              src="src/perpus_mandiri_logo-removebg-preview.png"
+              alt="perpus_mandiri_logo"
+            />
+            <div class="logo-text">
+              <span
+                style="
+                  filter: brightness(0) saturate(100%) invert(100%) sepia(1%)
+                    saturate(438%) hue-rotate(87deg) brightness(115%)
+                    contrast(100%);
+                "
+                >Perpus Mandiri</span
+              >
+              <span
+                style="
+                  filter: brightness(0) saturate(100%) invert(100%) sepia(1%)
+                    saturate(438%) hue-rotate(87deg) brightness(115%)
+                    contrast(100%);
+                "
+                >Aplikasi Manajemen Perpustakaan</span
+              >
             </div>
-            <div class="footer-information-center">
-                <span>Menu</span>
-                <a href="index.html">Beranda</a>
-                <a href="about.html">Tentang</a>
-                <a href="contact.html">Kontak</a>
-                <a href="books.html">Daftar Buku</a>
-                <a href="chart.html">Grafik Peminjaman</a>
-            </div>
-            <div class="footer-information-right">
-                <span>Hubungi Kami</span>
-                <div style="display: flex; flex-direction: column;">
-                    <div class="footer-email">
-                        <img src="src/envelope-regular-full.svg" alt="">
-                        <span>rizqi258745@student.smkn1kandeman.sch.id</span>
-                    </div>
-                    <div class="footer-contact">
-                        <img src="src/instagram-brands-solid-full.svg" alt="">
-                        <img src="src/twitter-brands-solid-full.svg" alt="">
-                        <img src="src/facebook-brands-solid-full.svg" alt="">
-                    </div>
-                </div>
-            </div>
+          </div>
+          <span
+            style="
+              color: white;
+              font-size: small;
+              padding-left: 8px;
+              margin-top: 10px;
+            "
+            >Belajar, Membaca, Berbagi Ilmu</span
+          >
         </div>
-        <div class="footer-copyright">
-            <span>&copy; 2026 Perpus Mandiri. All rights reserved.</span>
+        <div class="footer-information-center">
+          <span>Menu</span>
+          <a href="index.html">Beranda</a>
+          <a href="about.html">Tentang</a>
+          <a href="contact.html">Kontak</a>
+          <a href="books.html">Daftar Buku</a>
+          <a href="chart.html">Grafik Peminjaman</a>
         </div>
+        <div class="footer-information-right">
+          <span>Hubungi Kami</span>
+          <div style="display: flex; flex-direction: column">
+            <div class="footer-email">
+              <img src="src/envelope-regular-full.svg" alt="" />
+              <span>rizqi258745@student.smkn1kandeman.sch.id</span>
+            </div>
+            <div class="footer-contact">
+              <img src="src/instagram-brands-solid-full.svg" alt="" />
+              <img src="src/twitter-brands-solid-full.svg" alt="" />
+              <img src="src/facebook-brands-solid-full.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <span>&copy; 2026 Perpus Mandiri. All rights reserved.</span>
+      </div>
     </footer>
 
-    <script src="script.js">
-    </script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -227,7 +227,7 @@
             <hr>
             <form onsubmit="tambahBuku()">
                 <div class="flex-row tambah-buku" style="width: 100%; padding: 10px;
-                gap: 30px; justify-content: center; flex-wrap: wrap;">
+                column-gap: 30px; justify-content: center; flex-wrap: wrap;">
                 <div class="flex-column">
                     <span>Nama Buku</span>
                     <input id="inAddNama" type="text" placeholder="Masukkan nama buku.." required>
@@ -400,7 +400,7 @@
                 </div>
                 
             </div>
-            <div id="extra-nav" class="flex-column" style="position: absolute; top: 60px; right: 30px; "></div>
+            <div id="extra-nav" class="flex-column" ></div>
         </nav>
     </header>
     <main>
@@ -439,8 +439,8 @@
                 </div>
             
         </div>
-        <div style="padding: 10px; margin-top: 10px;">
-           <table style="width: 100%; padding: 5px; text-align: center; ">
+        <div style="padding: 10px; margin-top: 10px; overflow: auto;">
+           <table style="width: 100%; padding: 5px; text-align: center;">
                 <thead style="background-color: rgb(231, 255, 255); font-weight: bold;">
                     <tr>
                         <td>No</td>
