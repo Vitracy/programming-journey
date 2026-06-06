@@ -12,6 +12,16 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js"></script>
     <link rel="stylesheet" href="global.css">
     <style>
+        .chart-container{
+            width:100%;
+            height:300px;
+            position:relative;
+        }
+
+        #myChart{
+            width:100% !important;
+            height:100% !important;
+        }
         .main-left{
             padding-top: 30px;
             padding-left: 75px;
@@ -273,7 +283,9 @@
     
     
     <section>
-        <canvas id="myChart"></canvas>
+        <div class="chart-container">
+            <canvas id="myChart"></canvas>
+        </div>
     </section>
     <footer>
         <div class="footer-information">
@@ -359,6 +371,7 @@
       }]
     },
     options: {
+      maintainAspectRatio: false,
       responsive: true,
       scales: {
         x: {
